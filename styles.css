@@ -1,0 +1,36 @@
+/* GOLF LOGO */
+.navbar-brand{
+    width: 9.375rem;
+    background-color: #fed925;
+    color: black;
+    align-content: center;
+}
+
+.navbar-brand:hover{
+    color: #fed925;
+    background-color: black;
+}
+
+/* LINKS */
+a:hover:not(.navbar-brand){
+    color: #fed925;
+}
+
+a{
+    color: #000;
+}
+.btn {
+    color: #fed925; 
+    background-color: black; 
+    border-radius: 0%; 
+    border-color: #fed925; 
+    width: 200px; 
+    font-size: 12px; 
+    font-weight: 700;
+}
+
+.btn:hover {
+    color: black;
+    background-color: #fed925;
+    border-color: #fed925;
+}
